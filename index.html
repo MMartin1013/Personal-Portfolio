@@ -5,9 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='./resources/css/index.css' rel='stylesheet'>
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='./resources/script/script.js' async></script>
+    <title>Manolo Martin | Home</title>
 </head>
 <body>
-    
+    <header>
+        <div class='logo'>
+            <span class='name'>Martin.io</span>
+        </div>
+        <ul class='navigation'>
+            <a class='current' href='./index.html'><li>Home</li></a>
+            <a href='#about'><li>About</li></a>
+            <a href='#projects'><li>Projects</li></a>
+            <a href='#resume'><li>Resume</li></a>
+        </ul>
+        <i id='dropdown' class="fa dropdown fa-bars">
+            <ul id='dropdown-navigation' class='dropdown-navigation'>
+                <a class='current' href='./index.html'><li>Home</li></a>
+                <a href='#about'><li>About</li></a>
+                <a href='#projects'><li>Projects</li></a>
+                <a href='#resume'><li>Resume</li></a>
+            </ul>
+        </i>
+    </header>
+    <main>
+        <div class='title'>
+            <h1 class='greeting'>Hey, I'm Manolo</h1>
+            <span>Junior Web Developer based in Pittsburgh, Pennsylvania</span>
+        </div>
+        <!--
+        <div class='about'>
+            <h2>About Me</h2>
+            <p id='aboutme'>I am currently a junior web developer 
+                studying computer science at George Mason University 
+                in Fairfax, Virginia. I enjoy working with the front-end 
+                and back-end of interactive websites. 
+            </p>
+        </div>
+        -->
+        <div class='avatar-container'>
+            <img class='avatar' src="./resources/images/avatar.png" alt="Picture of Manolo's avatar">
+        </div>
+        <div class='contact-me'>
+            <h2>Contact Me</h2>
+            <ul class='contacts'>
+                <a href="https://github.com/MMartin1013"><li><i class="fa fa-github"></i></li></a> 
+                <a href="https://www.linkedin.com/in/mano-martin-451436212/"><li><i class="fa fa-linkedin"></i></li></a> 
+                <a href="your_url_here"><li><i class="fa fa-envelope"></i></li></a> 
+            </ul>
+        </div>
+    </main>
 </body>
 </html>
