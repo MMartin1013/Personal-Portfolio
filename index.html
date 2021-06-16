@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
     <link href='./resources/css/styles.css' rel='stylesheet'>
     <link href='./resources/css/index.css' rel='stylesheet'>
     <script src='./resources/script/script.js' async></script>
@@ -16,14 +16,15 @@
             <span class='name'>Martin.io</span>
         </div>
         <ul class='navigation'>
-            <a class='current' href='./index.html'><li>Home</li></a>
+            <a href='./index.html'><li class='current'>Home</li></a>
             <a href='./about.html'><li>About</li></a>
             <a href='#projects'><li>Projects</li></a>
             <a href='#resume'><li>Resume</li></a>
         </ul>
-        <i id='dropdown' class="fa dropdown fa-bars">
+        <i id='dropdown' class="fa dropdown fa-bars"></i>
+        <i id='x-mark' class="fas fa-times">
             <ul id='dropdown-navigation' class='dropdown-navigation'>
-                <a class='current' href='./index.html'><li>Home</li></a>
+                <a href='./index.html'><li>Home</li></a>
                 <a href='./about.html'><li>About</li></a>
                 <a href='#projects'><li>Projects</li></a>
                 <a href='#resume'><li>Resume</li></a>
@@ -35,25 +36,15 @@
             <h1 class='greeting'>Hey, I'm Manolo</h1>
             <span>Junior Web Developer based in Pittsburgh, Pennsylvania</span>
         </div>
-        <!--
-        <div class='about'>
-            <h2>About Me</h2>
-            <p id='aboutme'>I am currently a junior web developer 
-                studying computer science at George Mason University 
-                in Fairfax, Virginia. I enjoy working with the front-end 
-                and back-end of interactive websites. 
-            </p>
-        </div>
-        -->
         <div class='avatar-container'>
             <img class='avatar' src="./resources/images/avatar.png" alt="Picture of Manolo's avatar">
         </div>
         <div class='contact-me'>
             <h2>Contact Me</h2>
             <ul class='contacts'>
-                <a href="https://github.com/MMartin1013"><li><i class="fa fa-github"></i></li></a> 
-                <a href="https://www.linkedin.com/in/mano-martin-451436212/"><li><i class="fa fa-linkedin"></i></li></a> 
-                <a href="your_url_here"><li><i class="fa fa-envelope"></i></li></a> 
+                <a href="https://github.com/MMartin1013"><li><i class="icon fab fa-github"></i></li></a> 
+                <a href="https://www.linkedin.com/in/mano-martin-451436212/"><li><i class="icon fab fa-linkedin"></i></li></a> 
+                <a href="your_url_here"><li><i class="icon fas fa-envelope"></i></li></a> 
             </ul>
         </div>
     </main>

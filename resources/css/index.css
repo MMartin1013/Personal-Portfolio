@@ -71,33 +71,18 @@ main {
 
 .contacts {
     margin: 1em;
-    height: 100%;
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     list-style: none;
     font-size: 1.5em;
 }
 
 .contacts a {
-    width: 100%;
-    height: 100%;
     margin: 0 1em;
-    color: white;
 }
 
-.contacts .fa {
+.icon {
     border: 1px solid white;
-    padding: .5em;
     border-radius: 100%;
-}
-
-.contacts a li .fa:hover {
-    color: black;
-    background-color: white;
-    border-radius: 100%;
-    transition: 100ms;
 }
 
 @media only screen and (max-width: 850px) {
