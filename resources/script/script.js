@@ -41,7 +41,7 @@ dropdown.onmouseleave = function(){
 main.onclick = function() {
     nav.style.display = 'none';
     xmark.style.display = 'none';
-    dropdown.style.display = 'flex';
     dropdown.style.backgroundColor = 'black';
     dropdown.style.color = 'white';
 }
+

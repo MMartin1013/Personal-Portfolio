@@ -9,6 +9,11 @@ main {
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: rgba(75, 139, 190);
+}
+
 .about {
     overflow: hidden;
     display: flex;
